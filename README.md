@@ -41,12 +41,14 @@ npm start
 
 Crea un archivo .env en la raíz del proyecto:
 
+```env
 PORT=3000
 SNMP_COMMUNITY=public
-
+```
 ---
 
 ## Estructura del proyecto
+```js
 src/
   routes/
     index.js
@@ -58,7 +60,7 @@ src/
 index.js
 .env
 package.json
-
+```
 ---
 
 ## Endpoints
